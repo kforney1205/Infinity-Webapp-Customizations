@@ -1,0 +1,19 @@
+{
+    "id": "fullscreen-plugin-1.0",
+    "name": "fullscreen",
+    "description": "Ability for fullscreen",
+    "version": 1.0,
+    "srcURL": "fullscreen.plugin.js",
+    "allowUnload": true,
+    "platforms": ["web", "electron", "ios", "android"],
+    "participantRoles": ["guest", "chair"],
+    "menuItems": {
+        "toolbar": [
+            {
+                "icon": "grid.svg#grid",
+                "label": "Full Screen",
+                "action": "makeFullscreen"
+            }
+        ]
+    }
+}

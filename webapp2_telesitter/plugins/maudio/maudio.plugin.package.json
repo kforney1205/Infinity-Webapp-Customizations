@@ -1,0 +1,19 @@
+{
+    "id": "maudio-plugin-1.0",
+    "name": "maudio",
+    "description": "Multiple audio streams",
+    "version": 1.0,
+    "srcURL": "maudio.plugin.js",
+    "allowUnload": true,
+    "platforms": ["web", "electron", "ios", "android"],
+    "participantRoles": ["guest"],
+    "menuItems": {
+        "toolbar": [
+            {
+                "icon": null,
+                "label": null,
+                "action": "multipleAudio"
+            }
+        ]
+    }
+}

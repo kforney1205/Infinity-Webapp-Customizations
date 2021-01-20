@@ -1,0 +1,89 @@
+{
+	"applicationSettings": {
+		"disconnectDestination": "https://kforney1205.github.io/HospitalMap-v1/",
+		"dialOutProtocol": "auto",
+		"languages": [],
+		"bandwidths": [
+			"256",
+			"576",
+			"1264",
+			"2464"
+		],
+		"registrationEnabled": true
+	},
+	"defaultUserSettings": {
+		"language": "en",
+		"screenshareFrameRate": 15,
+		"bandwidth": "576",
+		"promptDisconnect": true,
+		"viewFullMotionPresentation": true,
+		"sendStats": true,
+		"showConferenceSidebar": false,
+		"highContrast": false,
+		"startInBackground": false,
+		"playRingTone": true
+	},
+	"plugins": [
+{
+			"id": "recording-plugin-1.0",
+			"srcURL": "plugins/recording/recording.plugin.package.json",
+			"enabled": false
+		},
+		{
+			"id": "layout-plugin-1.0",
+			"srcURL": "plugins/layout/layout.plugin.package.json",
+			"enabled": true
+		},
+		{
+			"id": "screenshot-plugin-1.0",
+			"srcURL": "plugins/screenshot/screenshot.plugin.package.json",
+			"enabled": false
+		},
+		{
+			"id": "spotlight-plugin-1.0",
+			"srcURL": "plugins/spotlight/spotlight.plugin.package.json",
+			"enabled": true
+		},
+		{
+			"id": "buzz-plugin-1.0",
+			"srcURL": "plugins/buzz/buzz.plugin.package.json",
+			"enabled": false
+		},
+		{
+			"id": "fullscreen-plugin-1.0",
+			"srcURL": "plugins/fullscreen/fullscreen.plugin.package.json",
+			"enabled": true
+		},
+		{
+			"id": "sms-plugin-1.0",
+			"srcURL": "plugins/sms/sms.plugin.package.json",
+			"enabled": true
+		},
+		{
+			"id": "overlay1-plugin-1.0",
+			"srcURL": "plugins/overlaytext/overlay1.plugin.package.json",
+			"enabled": true
+		},
+		{
+			"id": "maudio-plugin-1.0",
+			"srcURL": "plugins/maudio/maudio.plugin.package.json",
+			"enabled": false
+		},
+		{
+			"id": "translator-plugin-1.0",
+			"srcURL": "plugins/translator/translator.plugin.package.json",
+			"enabled": false
+		},
+		{
+			"id": "select-interpreter-plugin-1.0",
+			"srcURL": "plugins/select-interpreter/select-interpreter.plugin.package.json",
+			"enabled": true
+		},
+		{
+			"id": "select-cart-plugin-1.0",
+			"srcURL": "plugins/select-cart/select-cart.plugin.package.json",
+			"enabled": true
+		}
+
+	]
+}

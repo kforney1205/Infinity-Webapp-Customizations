@@ -1,0 +1,60 @@
+:root {
+--goo-blob-colour2: #01b0ef;
+--goo-blob-colour4: #dea90b;
+--goo-blob-colour0: #5371aa;
+--goo-blob-colour3: #beacc5;}
+
+ #conference-audio-indicator {
+color: #dea90b !important;
+}
+
+ #home-content-call-text {
+color: #1f517e !important;
+}
+
+ #home-video-call-button {
+background-color: #5371aa !important;
+border-color: #5371aa !important;
+}
+
+ #home-video-call-text {
+color: #043b7f !important;
+}
+
+ #home-voice-call-button {
+color: #5371aa !important;
+border-color: #5371aa !important;
+}
+
+ #home-voice-call-text {
+color: #043b7f !important;
+}
+
+ #home-mic-on-icon {
+color: #002060 !important;
+}
+
+ #home-video-on-icon {
+color: #002060 !important;
+}
+
+ #home-audio-icon {
+color: #002060 !important;
+}
+
+ #gooBlob0 {
+background: #5371aa !important;
+}
+
+ #gooBlob2 {
+background: #01b0ef !important;
+}
+
+ #gooBlob3 {
+background: #beacc5 !important;
+}
+
+ #gooBlob4 {
+background: #dea90b !important;
+}
+

@@ -1,0 +1,19 @@
+{
+    "id": "overlay1-plugin-1.0",
+    "name": "overlaytext",
+    "description": "Rename Participant",
+    "version": 1.0,
+    "srcURL": "overlay1.plugin.js",
+    "allowUnload": true,
+    "platforms": ["web", "electron", "ios", "android"],
+    "participantRoles": ["chair"],
+    "menuItems": {
+        "participants": [
+            {
+                "icon": "overlay1.svg#overlay",
+                "label": "Text Overlay",
+                "action": "overlaytextParticipant"
+            }
+        ]
+    }
+}

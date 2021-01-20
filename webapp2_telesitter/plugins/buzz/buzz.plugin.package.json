@@ -1,0 +1,19 @@
+{
+    "id": "buzz-plugin-1.0",
+    "name": "buzz",
+    "description": "Ability for hand raising",
+    "version": 1.0,
+    "srcURL": "buzz.plugin.js",
+    "allowUnload": true,
+    "platforms": ["web", "electron", "ios", "android"],
+    "participantRoles": ["guest"],
+    "menuItems": {
+        "toolbar": [
+            {
+                "icon": null,
+                "label": null,
+                "action": "buzz"
+            }
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "id": "select-interpreter-plugin-1.0",
+    "name": "Select Interpreter",
+    "description": "Add an Interpreter",
+    "version": 1.0,
+    "srcURL": "select-interpreter.plugin.js",
+    "allowUnload": true,
+    "platforms": ["web", "electron", "ios", "android"],
+    "participantRoles": ["chair"],
+    "menuItems": {
+        "toolbar": [
+            {
+                "icon": "lang.svg#lang",
+                "label": "Select Interpreter",
+                "action": "actionFunction"
+            }
+        ]
+    }
+}

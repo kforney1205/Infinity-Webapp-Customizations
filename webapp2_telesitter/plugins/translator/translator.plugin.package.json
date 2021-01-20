@@ -1,0 +1,19 @@
+{
+    "id": "translator-plugin-1.0",
+    "name": "translator",
+    "description": "Translator Plugin",
+    "version": 1.0,
+    "srcURL": "translator.plugin.js",
+    "allowUnload": true,
+    "platforms": ["web", "electron", "ios", "android"],
+    "participantRoles": ["chair"],
+    "menuItems": {
+        "toolbar": [
+            {
+                "icon": null,
+                "label": null,
+                "action": "translatorAudio"
+            }
+        ]
+    }
+}

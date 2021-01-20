@@ -1,0 +1,19 @@
+{
+    "id": "select-cart-plugin-1.0",
+    "name": "Select Cart",
+    "description": "Connect to a Medical Cart",
+    "version": 1.0,
+    "srcURL": "select-cart.plugin.js",
+    "allowUnload": true,
+    "platforms": ["web", "electron", "ios", "android"],
+    "participantRoles": ["chair"],
+    "menuItems": {
+        "toolbar": [
+            {
+                "icon": "cart.svg#cart",
+                "label": "Select Cart",
+                "action": "actionFunction"
+            }
+        ]
+    }
+}

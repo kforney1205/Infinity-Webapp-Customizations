@@ -1,0 +1,19 @@
+{
+    "id": "sms-plugin-1.0",
+    "name": "sms",
+    "description": "Invite guests with SMS",
+    "version": 1.0,
+    "srcURL": "sms.plugin.js",
+    "allowUnload": true,
+    "platforms": ["web", "electron", "ios", "android"],
+    "participantRoles": ["chair"],
+    "menuItems": {
+        "toolbar": [
+            {
+                "icon": "sms.svg#sms",
+                "label": "send SMS to guests",
+                "action": "smsInvite"
+            }
+        ]
+    }
+}
